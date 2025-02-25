@@ -1,0 +1,72 @@
+header {
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    align-items: center;
+ 
+};
+ 
+.encabezado {
+    display: flex;
+    align-items: center;
+   
+}
+ 
+.encabezado img {
+    width: 400px;  
+    height: auto; /* Mantiene la proporción */
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+}
+ 
+.titulo2 {
+    margin-right: 20px;
+    color: aliceblue;
+}
+ 
+footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    margin-top: auto; /* Empuja el footer hacia el fondo */
+}
+ 
+.Tema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20pt;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+ 
+.portada_de_tema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 45px; /*margen inferior*/
+    margin-right: 100px;
+}
+ 
+.contenido_tema {
+    justify-content: center;
+    align-items: center;
+    margin-right:  50px;
+    margin-left: 50px;
+    font-size: 18pt;
+    margin-bottom: 55px;
+}
+ 
