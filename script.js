@@ -19,4 +19,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
     imagenDengue.addEventListener('click', cambiarImagen);
+
+
+    class Melemento extends HTMLElement{
+        constructor(){
+            super();
+            this.attachShadow({mode:'open'});
+            this.shadowRoot.innerHTML =  `
+                <p> Nombres De Estudiantes: Nelcy Nohemy Avalos -
+                 Daniel Enrique Luna Benavidez </p>
+                <p>
+                    Primer Examen Parcial - Computo I
+                </p>
+        `
+
+        }
+    }
+    customElements.define(footer,Melemento);
+
 });
+
+
+
+
